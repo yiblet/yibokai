@@ -1,4 +1,6 @@
-" @author Wells Johnston <w@wellsjohnston.com>
+"forked from  Wells Johnston <w@wellsjohnston.com>
+"author: Shalom Yiblet
+"I made some changes on how it highlighted
 
 set background=dark
 highlight clear
@@ -7,14 +9,14 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name = "wellsokai"
+let g:colors_name = "yibokai"
 
 " highlight, visual
 " yellow
-hi Visual ctermfg=black ctermbg=228 cterm=NONE guifg=NONE guibg=#49483e gui=NONE
+hi Visual ctermbg=237 cterm=NONE guifg=NONE guibg=#49483e gui=NONE
 hi String ctermfg=228 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
-hi IncSearch ctermbg=228 ctermfg=black cterm=NONE guifg=#272822 guibg=#e6db74 gui=NONE
-hi Search ctermbg=228 ctermfg=black guifg=NONE guibg=NONE
+hi IncSearch ctermbg=NONE ctermfg=NONE cterm=underline guifg=#272822 guibg=#e6db74 gui=NONE
+hi Search ctermbg=NONE ctermfg=NONE cterm=underline guifg=NONE guibg=NONE
 
 " keywords, operators
 " pinkish color
@@ -66,7 +68,7 @@ hi Folded ctermfg=245 ctermbg=235 cterm=NONE guifg=#75715e guibg=#272822 gui=NON
 hi Comment ctermfg=245 ctermbg=NONE cterm=NONE guifg=#75715e guibg=NONE gui=NONE
 
 " light pink
-hi Normal ctermfg=231 ctermbg=234 cterm=NONE guifg=#f8f8f2 guibg=#272822 gui=NONE
+hi Normal ctermfg=231 ctermbg=235 cterm=NONE guifg=#f8f8f2 guibg=#272822 gui=NONE
 hi DiffAdd ctermfg=231 ctermbg=64 cterm=bold guifg=#f8f8f2 guibg=#46830c gui=bold
 hi DiffChange ctermfg=231 ctermbg=23 cterm=NONE guifg=#f8f8f2 guibg=#243955 gui=NONE
 hi DiffText ctermfg=231 ctermbg=24 cterm=bold guifg=#f8f8f2 guibg=#204a87 gui=bold
@@ -102,7 +104,7 @@ hi Label ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
 hi NonText ctermfg=238 ctermbg=NONE cterm=NONE guifg=#49483e guibg=NONE gui=NONE
 hi SpecialKey ctermfg=236 ctermbg=None cterm=NONE guifg=#49483e guibg=#3c3d37 gui=NONE
 hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
-hi CursorLine ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
 hi LineNr ctermfg=102 ctermbg=237 cterm=NONE guifg=#90908a guibg=#3c3d37 gui=NONE
