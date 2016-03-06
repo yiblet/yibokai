@@ -5,7 +5,7 @@ Dark vim theme with pronounced colors
 ### 1. download via your favorite plugin manager
 Vundle 
 ```
-Plugin "yiblet/yibokai"
+Plugin 'yiblet/yibokai'
 ```
 
 ### 2. change your colorscheme to yibokai
